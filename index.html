@@ -9,27 +9,35 @@
 </head>
 <body>
   <div class="container">
-    <h1>Make the animals talk to each other</h1>
-    <p>Click a button to have the dog or cat bark or meow. See what the other says back!</p>
+    <div class="jumbotron">
+      <div class="text-center">
+        <h1>Talk to the web page</h1>
+        <p>Click a button to say something to the web page. See what it says back!</p>
+      </div>
+        <div class="float-left">
+          <button class="btn btn-primary" id="meow">Say Meow</button>
+        </div>
+      
+      <div class="float-right">
+        <button class="btn btn-danger" id="bark">Say Bark</button>
+      </div>
 
-    <button class="btn btn-primary" id="cat">Make the cat meow</button>
-    
-    <div class="float-right">
-      <button class="btn btn-danger" id="dog">Make the dog bark</button>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div><img src="images/cat.jpeg" alt="picture of a cat meowing"></div>
-        <ul class="unstyled" id="user">
+        <div class="float-left">
+          <img src="images/cat.jpeg" alt="Photo of a kitten meowing">
+        </div>
+        <ul class="unstyled" id="cat">
 
         </ul>
       </div>
 
       <div class="col-md-6">
         <div class="float-right">
-          <img src="images/dog.jpeg" alt="picture of a dog barking">
+          <img src="images/dog.jpeg" alt="Photo of a dog barking">
         </div>
-        <ul class="unstyled" id="webpage">
+        <ul class="unstyled" id="dog">
 
         </ul>
       </div>
